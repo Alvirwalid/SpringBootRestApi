@@ -21,10 +21,10 @@ public class Student {
         super();
     }
 
-    public Student(String status, String message, List<Data> data) {
+    public Student(String status, String message) {
         this.status = status;
         this.message = message;
-        this.data = data;
+
     }
 
 
